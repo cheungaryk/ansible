@@ -81,3 +81,31 @@ ansible-playbooks structure.yaml
 ansible-playbook structure.yaml 
 cd ..
 git add .
+git commit -am "added playbook"
+git push
+ansible all --list-hosts
+cd ansible/playbooks/structure.yaml 
+cat ansible/playbooks/structure.yaml 
+ansible ubuntu -m setup
+ansible ubuntu -m setup | grep ipv4
+ansible ubuntu -m setup -a 'filter=*ipv4*'
+ansible ubuntu -m setup -a 'filter=*default*'
+ansible ubuntu -m setup --tree facts
+ls
+cd facts/
+ls
+cat cheungaryk5.mylabserver.com 
+vim cheungaryk5.mylabserver.com 
+ansible ubuntu -m setup -a 'filter=ansible_domain'
+cd..
+ls
+cd ..
+ls
+cd ansible/
+ansible all -m setup -a 'filter=ansible_domain'
+ansible all -m setup --tree facts
+ls
+cd facts/
+ls
+cat localhost 
+cd ..
