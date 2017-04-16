@@ -19,14 +19,24 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	:
 
 # File marks:
-'0  1  0  ~/facts/cheungaryk5.mylabserver.com
-'1  21  18  ~/ansible/playbooks/structure.yaml
-'2  1  13  ~/ansible/test.txt
-'3  1  14  ~/test.txt
+'0  8  0  ~/varsubst.yaml
+'1  9  11  ~/vartest.yaml
+'2  16  18  ~/vartest.yaml
+'3  1  0  ~/facts/cheungaryk5.mylabserver.com
+'4  21  18  ~/ansible/playbooks/structure.yaml
+'5  1  13  ~/ansible/test.txt
+'6  1  14  ~/test.txt
 
 # Jumplist (newest first):
+-'  8  0  ~/varsubst.yaml
+-'  1  0  ~/varsubst.yaml
+-'  9  11  ~/vartest.yaml
+-'  16  6  ~/vartest.yaml
+-'  1  0  ~/vartest.yaml
 -'  1  0  ~/facts/cheungaryk5.mylabserver.com
 -'  21  18  ~/ansible/playbooks/structure.yaml
 -'  1  0  ~/ansible/playbooks/structure.yaml
@@ -44,8 +54,100 @@
 -'  1  13  ~/ansible/test.txt
 -'  1  14  ~/test.txt
 -'  1  14  ~/test.txt
+-'  1  0  ~/facts/cheungaryk5.mylabserver.com
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  0  ~/facts/cheungaryk5.mylabserver.com
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  0  ~/facts/cheungaryk5.mylabserver.com
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  9  11  ~/vartest.yaml
+-'  16  6  ~/vartest.yaml
+-'  1  0  ~/vartest.yaml
+-'  1  0  ~/facts/cheungaryk5.mylabserver.com
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
+-'  1  0  ~/facts/cheungaryk5.mylabserver.com
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/varsubst.yaml
+	"	8	0
+	^	8	0
+	.	8	0
+	+	8	0
+
+> ~/vartest.yaml
+	"	9	11
+	^	9	12
+	.	9	11
+	+	11	3
+	+	9	17
+	+	17	0
+	+	9	11
 
 > ~/facts/cheungaryk5.mylabserver.com
 	"	1	0

@@ -109,3 +109,19 @@ cd facts/
 ls
 cat localhost 
 cd ..
+git add . && git commit -am "adding facts" && git push
+ls
+cat /etc/ansible/hosts
+vim vartest.yaml
+ansible-playbook vartest.yaml 
+vim vartest.yaml
+ansible-playbook vartest.yaml 
+which cron
+ansible ubuntu -s -m apt -a "name=telnet state=absent"
+cp vartest.yaml varsubst.yaml
+vim varsubst.yaml 
+ansible-playbook varsubst.yaml 
+ansible-playbook varsubst.yaml --extra-vars "hosts=ubuntu gather=yes pkg=telnet"
+ansible-playbook varsubst.yaml --extra-vars "myhosts=ubuntu gather=yes pkg=telnet"
+ansible ubuntu -s -m apt -a "name=telnet state=absent"
+git add .
