@@ -57,3 +57,27 @@ git init
 git remote add origin https://github.com/cheungaryk/ansible.git
 git push -u origin master
 git status
+git add .
+git commit -m "initial commit"
+git config --global user.email "cheungaryk@gmail.com"
+git config --global user.name "Gary"
+git commit -m "initial commit"
+git push -u origin master
+ls
+ls -lah
+history | grep ansible
+history | grep ^ansible
+history | grep "ansible"
+history | grep "^ansible"
+cd ansible/
+mkdir playbooks | cd playbooks
+mkdir playbooks && cd playbooks
+cd playbooks
+ls
+ll
+vim structure.yaml
+ll
+ansible-playbooks structure.yaml 
+ansible-playbook structure.yaml 
+cd ..
+git add .

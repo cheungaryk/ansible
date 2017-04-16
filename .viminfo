@@ -21,15 +21,33 @@
 # Registers:
 
 # File marks:
-'0  1  13  ~/ansible/test.txt
-'1  1  14  ~/test.txt
+'0  21  18  ~/ansible/playbooks/structure.yaml
+'1  1  13  ~/ansible/test.txt
+'2  1  14  ~/test.txt
 
 # Jumplist (newest first):
+-'  21  18  ~/ansible/playbooks/structure.yaml
+-'  1  0  ~/ansible/playbooks/structure.yaml
+-'  1  13  ~/ansible/test.txt
+-'  1  14  ~/test.txt
+-'  1  14  ~/test.txt
 -'  1  13  ~/ansible/test.txt
 -'  1  14  ~/test.txt
 -'  1  14  ~/test.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/ansible/playbooks/structure.yaml
+	"	21	18
+	^	21	19
+	.	20	18
+	+	2	15
+	+	1	67
+	+	14	19
+	+	18	21
+	+	16	17
+	+	21	21
+	+	20	18
 
 > ~/ansible/test.txt
 	"	1	13
