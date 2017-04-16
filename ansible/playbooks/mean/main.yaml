@@ -1,0 +1,14 @@
+--- # This is the main playbook to deploy mean stack to an ansible node
+- hosts: ubuntu
+  remote_user: ansible
+  become: yes
+  become_method: sudo
+  vars:
+    temp_folder: /tmp
+  tasks:
+    # Install prerequisites
+    - include: prerequisites.yaml
+    # Install MongoDB
+    - include: mongodb.yaml
+    # Install Node.js
+    - include: nodejs.yaml

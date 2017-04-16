@@ -160,3 +160,38 @@ git add .
 git add --all
 ls
 git status
+git commit -am "notify.yaml"
+git push
+git status
+exit
+ls
+cd ansible/playbooks/
+mkdir mean
+cd mean
+touch main.yaml prerequisites.yaml mongodb.yaml nodejs.yaml
+vim main.yaml
+vim prerequisites.yaml 
+vim mongodb.yaml 
+vim nodejs.yaml 
+ansible-playbook main.yaml 
+vim mongodb.yaml 
+ansible-playbook main.yaml 
+vim main.
+ls
+vim main.yaml 
+vim prerequisites.yaml 
+ansible-playbook main.yaml 
+vim main.yaml
+vim prerequisites.yaml 
+vim nodejs.yaml 
+ansible-playbook --limit @/home/ansible/ansible/playbooks/mean/main.retry
+ansible --limit @/home/ansible/ansible/playbooks/mean/main.retry
+ansible ubuntu --limit @/home/ansible/ansible/playbooks/mean/main.retry
+ls
+history -10
+history 10
+ansible-playbook main.yaml --limit @main.retry
+vim nodejs.yaml 
+ansible-playbook main.yaml --limit @main.retry
+cd ..
+git add .

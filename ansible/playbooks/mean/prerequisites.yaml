@@ -1,0 +1,10 @@
+--- # This playbook installs all prerequisites for the MEAN stack deployment
+- name: Update repositories
+  apt:
+    update_cache: yes
+- name: Install git
+  apt:
+    name: git
+    state: latest
+    update_cache: yes
+

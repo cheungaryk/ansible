@@ -1,0 +1,24 @@
+--- # This playbook does the following:
+ # 1. Import the MongoDB public key
+ # 2. Add MongoDB repository
+ # 3. Install MongoDB
+ # 4. Check if the service is running
+- name: MongoDB | Import public key
+  apt_key:
+    keyserver: hkp://keyserver.ubuntu.com:80
+    id: EA312927
+- name: MongoDB | Add repository
+  apt_repository:
+    filename: '/etc/apt/sources.list.d/mongodb-org-3.2.list'
+    repo: 'deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse'
+    state: present
+    update_cache: yes
+- name: MongoDB | Install MongoDB
+  apt:
+    name: mongodb-org
+    state: latest
+    update_cache: yes
+- name: MongoDB | Ensure that MongoDB is running
+  service:
+    name: mongod
+    state: started

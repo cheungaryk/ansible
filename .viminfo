@@ -7,10 +7,17 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/statee
+
 # Command Line History (newest to oldest):
 :wq!
+:q
+:q!
+:w
 
 # Search String History (newest to oldest):
+?/statee
 
 # Expression History (newest to oldest):
 
@@ -23,18 +30,35 @@
 	:
 
 # File marks:
-'0  16  10  ~/ansible/playbooks/notify.yaml
-'1  21  1  ~/ansible/playbooks/notify.yaml
-'2  14  20  ~/ansible/playbooks/debug.yaml
-'3  12  18  ~/ansible/playbooks/debug.yaml
-'4  8  0  ~/varsubst.yaml
-'5  9  11  ~/vartest.yaml
-'6  16  18  ~/vartest.yaml
-'7  1  0  ~/facts/cheungaryk5.mylabserver.com
-'8  21  18  ~/ansible/playbooks/structure.yaml
-'9  1  13  ~/ansible/test.txt
+'0  22  42  ~/ansible/playbooks/mean/nodejs.yaml
+'1  25  4  ~/ansible/playbooks/mean/nodejs.yaml
+'2  15  9  ~/ansible/playbooks/mean/nodejs.yaml
+'3  4  20  ~/ansible/playbooks/mean/prerequisites.yaml
+'4  14  3  ~/ansible/playbooks/mean/main.yaml
+'5  3  22  ~/ansible/playbooks/mean/prerequisites.yaml
+'6  9  20  ~/ansible/playbooks/mean/prerequisites.yaml
+'7  13  4  ~/ansible/playbooks/mean/main.yaml
+'8  1  0  ~/ansible/playbooks/mean/main.
+'9  13  55  ~/ansible/playbooks/mean/mongodb.yaml
 
 # Jumplist (newest first):
+-'  22  42  ~/ansible/playbooks/mean/nodejs.yaml
+-'  25  4  ~/ansible/playbooks/mean/nodejs.yaml
+-'  15  4  ~/ansible/playbooks/mean/nodejs.yaml
+-'  20  4  ~/ansible/playbooks/mean/nodejs.yaml
+-'  4  20  ~/ansible/playbooks/mean/prerequisites.yaml
+-'  3  2  ~/ansible/playbooks/mean/prerequisites.yaml
+-'  14  3  ~/ansible/playbooks/mean/main.yaml
+-'  13  4  ~/ansible/playbooks/mean/main.yaml
+-'  9  4  ~/ansible/playbooks/mean/prerequisites.yaml
+-'  10  0  ~/ansible/playbooks/mean/prerequisites.yaml
+-'  1  0  ~/ansible/playbooks/mean/main.
+-'  13  55  ~/ansible/playbooks/mean/mongodb.yaml
+-'  24  4  ~/ansible/playbooks/mean/mongodb.yaml
+-'  1  0  ~/ansible/playbooks/mean/nodejs.yaml
+-'  1  0  ~/ansible/playbooks/mean/mongodb.yaml
+-'  1  0  ~/ansible/playbooks/mean/prerequisites.yaml
+-'  1  0  ~/ansible/playbooks/mean/main.yaml
 -'  16  10  ~/ansible/playbooks/notify.yaml
 -'  21  1  ~/ansible/playbooks/notify.yaml
 -'  1  0  ~/ansible/playbooks/notify.yaml
@@ -116,25 +140,51 @@
 -'  1  14  ~/test.txt
 -'  9  11  ~/vartest.yaml
 -'  16  6  ~/vartest.yaml
--'  1  0  ~/vartest.yaml
--'  1  0  ~/facts/cheungaryk5.mylabserver.com
--'  21  18  ~/ansible/playbooks/structure.yaml
--'  1  0  ~/ansible/playbooks/structure.yaml
--'  1  13  ~/ansible/test.txt
--'  1  14  ~/test.txt
--'  1  14  ~/test.txt
--'  1  13  ~/ansible/test.txt
--'  1  14  ~/test.txt
--'  1  14  ~/test.txt
--'  21  18  ~/ansible/playbooks/structure.yaml
--'  1  0  ~/ansible/playbooks/structure.yaml
--'  1  13  ~/ansible/test.txt
--'  1  14  ~/test.txt
--'  1  14  ~/test.txt
--'  1  13  ~/ansible/test.txt
--'  1  14  ~/test.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/ansible/playbooks/mean/nodejs.yaml
+	"	22	42
+	^	22	43
+	.	22	42
+	+	6	7
+	+	2	6
+	+	11	38
+	+	25	9
+	+	15	8
+	+	22	42
+
+> ~/ansible/playbooks/mean/prerequisites.yaml
+	"	4	20
+	^	4	21
+	.	4	20
+	+	10	20
+	+	2	27
+	+	3	26
+	+	10	0
+	+	9	21
+	+	3	6
+	+	4	20
+
+> ~/ansible/playbooks/mean/main.yaml
+	"	14	3
+	^	14	4
+	.	14	25
+	+	10	22
+	+	12	4
+	+	10	5
+	+	14	25
+
+> ~/ansible/playbooks/mean/main.
+	"	1	0
+
+> ~/ansible/playbooks/mean/mongodb.yaml
+	"	13	55
+	^	13	56
+	.	13	55
+	+	13	83
+	+	24	17
+	+	13	55
 
 > ~/ansible/playbooks/notify.yaml
 	"	16	10
