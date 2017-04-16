@@ -23,15 +23,24 @@
 	:
 
 # File marks:
-'0  8  0  ~/varsubst.yaml
-'1  9  11  ~/vartest.yaml
-'2  16  18  ~/vartest.yaml
-'3  1  0  ~/facts/cheungaryk5.mylabserver.com
-'4  21  18  ~/ansible/playbooks/structure.yaml
-'5  1  13  ~/ansible/test.txt
-'6  1  14  ~/test.txt
+'0  16  10  ~/ansible/playbooks/notify.yaml
+'1  21  1  ~/ansible/playbooks/notify.yaml
+'2  14  20  ~/ansible/playbooks/debug.yaml
+'3  12  18  ~/ansible/playbooks/debug.yaml
+'4  8  0  ~/varsubst.yaml
+'5  9  11  ~/vartest.yaml
+'6  16  18  ~/vartest.yaml
+'7  1  0  ~/facts/cheungaryk5.mylabserver.com
+'8  21  18  ~/ansible/playbooks/structure.yaml
+'9  1  13  ~/ansible/test.txt
 
 # Jumplist (newest first):
+-'  16  10  ~/ansible/playbooks/notify.yaml
+-'  21  1  ~/ansible/playbooks/notify.yaml
+-'  1  0  ~/ansible/playbooks/notify.yaml
+-'  14  20  ~/ansible/playbooks/debug.yaml
+-'  12  6  ~/ansible/playbooks/debug.yaml
+-'  1  0  ~/ansible/playbooks/debug.yaml
 -'  8  0  ~/varsubst.yaml
 -'  1  0  ~/varsubst.yaml
 -'  9  11  ~/vartest.yaml
@@ -124,15 +133,23 @@
 -'  1  14  ~/test.txt
 -'  1  13  ~/ansible/test.txt
 -'  1  14  ~/test.txt
--'  1  14  ~/test.txt
--'  1  0  ~/facts/cheungaryk5.mylabserver.com
--'  21  18  ~/ansible/playbooks/structure.yaml
--'  1  0  ~/ansible/playbooks/structure.yaml
--'  1  13  ~/ansible/test.txt
--'  1  14  ~/test.txt
--'  1  14  ~/test.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/ansible/playbooks/notify.yaml
+	"	16	10
+	^	16	11
+	.	15	10
+	+	21	1
+	+	14	40
+	+	15	10
+
+> ~/ansible/playbooks/debug.yaml
+	"	14	20
+	^	14	21
+	.	14	20
+	+	12	19
+	+	14	20
 
 > ~/varsubst.yaml
 	"	8	0

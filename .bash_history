@@ -125,3 +125,38 @@ ansible-playbook varsubst.yaml --extra-vars "hosts=ubuntu gather=yes pkg=telnet"
 ansible-playbook varsubst.yaml --extra-vars "myhosts=ubuntu gather=yes pkg=telnet"
 ansible ubuntu -s -m apt -a "name=telnet state=absent"
 git add .
+git commit -am "adding var playbooks"
+git push
+ls ansible/playbooks/
+cd ansible/playbooks/
+vim debug.yaml
+ansible-playbook debug.yaml 
+ansible ubuntu -s -m apt -a "name=telnet state=absent"
+vim debug.yaml
+ansible-playbook debug.yaml 
+cat debug.yaml
+ls
+cd ..
+ls
+cd playbooks/
+ls
+cd ..
+ls
+mv varsubst.yaml ansible/playbooks/varsubst.yaml
+mv vartest.yaml ansible/playbooks/vartest.yaml
+cd ansible/playbooks/
+ls
+vim notify.yaml
+cd ..
+cd playbooks/
+ansible-playbook notify.yaml 
+ls
+vim notify.yaml 
+ansible-playbook notify.yaml 
+cd ..
+cd..
+cd ..
+git add .
+git add --all
+ls
+git status
